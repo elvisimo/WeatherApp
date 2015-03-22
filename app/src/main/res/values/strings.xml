@@ -3,4 +3,21 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="action_refresh">Refresh</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="pref_location_label">Location</string>
+    <string name="pref_location_key" translatable="false">location</string>
+    <string name="pref_location_default" translatable="false">Moscow</string>
+    <string name="pref_temp_title">Choice your temp type</string>
+    <string name="pref_temp_degr_cel">metric</string>
+    <string name="pref_temp_degr_far">imperial</string>
+    <string name="action_share">Share</string>
+    <string name="pref_temp" translatable="false">temp_type</string>
+    <array name="pref_temp_type">
+        <item>@string/pref_temp_degr_cel</item>
+        <item>@string/pref_temp_degr_far</item>
+    </array>
+    <array name="pref_temp_type_hum">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </array>
 </resources>
